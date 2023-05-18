@@ -1,0 +1,12 @@
+<div class="container">
+  <div>
+    <h2>Player Information</h2>
+  <div *ngIf="playerData.length">
+    <div *ngFor="let data of playerData">
+      <p>Player: {{ data | json }}</p>
+      <h4>-------------------------------------------------------------</h4>
+    </div>
+  <div>
+  </div>
+  </div>
+
